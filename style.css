@@ -63,7 +63,7 @@ li {
   align-items: center;
 }
 
-li.completed {
+li.completed span {
   text-decoration: line-through;
   color: gray;
 }
@@ -79,4 +79,11 @@ li button {
 
 li button:hover {
   background: darkred;
+}
+
+#taskCount {
+  text-align: center;
+  margin-top: 15px;
+  color: #333;
+  font-weight: bold;
 }
